@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Not Hotdog</title>
+</head>
+<body>
+<img src="static/unknown/{{ image_name }}">
+<br>
+<br>
+<p>{{ return_string }}</p>
+<br>
+<br>
+<form action="/" method="post" enctype="multipart/form-data">
+  <input type="file" name="uploaded_image">
+  <input type="submit" value="Send">
+</form>
+</body>
+</html>
